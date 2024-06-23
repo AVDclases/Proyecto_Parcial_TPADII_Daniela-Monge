@@ -1,0 +1,5 @@
+destino_favorito=$(sed -n '1p' destinos.txt)
+ultimo_lugar=$(sed -n '2p' destinos.txt)
+lugar_deseado=$(sed -n '3p' destinos.txt)
+
+echo "Mi lugar favorito es $destino_favorito, el ultimo lugar que fui $ultimo_lugar, mi lugar deseado es $lugar_deseado"
