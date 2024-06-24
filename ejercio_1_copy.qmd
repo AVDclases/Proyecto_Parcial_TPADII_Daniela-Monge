@@ -1,4 +1,4 @@
-PMC destino_favorito=$(sed -n '1p' destinos.txt)
+1PMC destino_favorito=$(sed -n '1p' destinos.txt)
 ultimo_lugar=$(sed -n '2p' destinos.txt)
 lugar_deseado=$(sed -n '3p' destinos.txt)
 
